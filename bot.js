@@ -43,5 +43,5 @@ client.on('messageCreate', async message => {
 });
 
 // ใส่รหัส Token ของพอร์ชตรงนี้เหมือนเดิมเลยครับ
-client.login('MTUxNzczMjI5ODYxNzkxMzQyNg.Ggg8O2.hgAzGnsJWKlO5fYQ9dgbyMvSUEmTrU23-5MsC8');
+client.login('process.env.TOKEN');
   
