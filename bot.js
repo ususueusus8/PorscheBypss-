@@ -2,7 +2,7 @@ const { Client, GatewayIntentBits, EmbedBuilder } = require('discord.js');
 const client = new Client({ intents: [GatewayIntentBits.Guilds, GatewayIntentBits.GuildMessages, GatewayIntentBits.MessageContent] });
 const axios = require('axios'); // ต้องใช้ตัวนี้เพื่อไปดึงคีย์มาจากระบบ Bypass
 
-client.once('ready', () => {
+client.once('clientReady', () => {
     console.log('บอทดักจับลิงก์คีย์ Delta พร้อมทำงาน 24 ชม. ครับ!');
 });
 
